@@ -1,6 +1,7 @@
 package com.companyname.school;
 
 import org.apache.log4j.Logger;
+
 import org.apache.log4j.xml.DOMConfigurator;
 
 //Class Teacher inheriting class Person
