@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.companyname.school.bookTest" time="0.002" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.companyname.school.bookTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\JAVA\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\BEBS\AppData\Local\Temp\surefire5553160334551313167\surefirebooter16312566674233701603.jar C:\Users\BEBS\AppData\Local\Temp\surefire5553160334551313167 2022-05-16T08-50-52_305-jvmRun1 surefire104446113374629215tmp surefire_09857610101088032953tmp"/>
+    <property name="sun.java.command" value="C:\Users\BEBS\AppData\Local\Temp\surefire7240253008776699650\surefirebooter14393500110718753959.jar C:\Users\BEBS\AppData\Local\Temp\surefire7240253008776699650 2022-05-16T09-16-51_519-jvmRun1 surefire4739323044095777195tmp surefire_05062002237993677648tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\BEBS\IdeaProjects\MyLibrary\bookLibrary\target\test-classes;C:\Users\BEBS\IdeaProjects\MyLibrary\bookLibrary\target\classes;C:\Users\BEBS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\BEBS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\BEBS\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\BEBS\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\BEBS\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\BEBS\AppData\Local\Temp\surefire5553160334551313167\surefirebooter16312566674233701603.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\BEBS\AppData\Local\Temp\surefire7240253008776699650\surefirebooter14393500110718753959.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -58,7 +58,7 @@
     <property name="java.class.version" value="60.0"/>
   </properties>
   <testcase name="CheckBookIdTest" classname="com.companyname.school.bookTest" time="0"/>
-  <testcase name="AddBookTest" classname="com.companyname.school.bookTest" time="0.001"/>
+  <testcase name="AddBookTest" classname="com.companyname.school.bookTest" time="0"/>
   <testcase name="ReturnBookTest" classname="com.companyname.school.bookTest" time="0"/>
   <testcase name="BookBorrowTest" classname="com.companyname.school.bookTest" time="0"/>
 </testsuite>

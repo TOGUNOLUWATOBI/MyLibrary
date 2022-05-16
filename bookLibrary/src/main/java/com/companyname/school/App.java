@@ -14,6 +14,7 @@ public class App
     public static void main( String[] args )
     {
 
+        //create and books to library
         Book book=new Book();
         book.AddBook("#id-1","Introduction to Maths",7);
         book.AddBook("#id-2","Introduction to Biology",4);
@@ -21,16 +22,17 @@ public class App
         book.AddBook("#id-4","Introduction to Physics",5);
 
 
-
+        //create students and initialize
         Student std1=new JuniorStudent("1234","std1");
         Student std2=new SeniorStudent("4567","std2");
         Student std3=new JuniorStudent("7890","std3");
 
-
+        //create teacher and initialize
         Teacher th1=new Teacher("1234","th1");
         Teacher th2=new Teacher("4567","th2");
         Teacher th3=new Teacher("7890","th3");
 
+        //arraylist for priorqueue
         ArrayList<Person> priorityQueue=new ArrayList<>();
         priorityQueue.add(std1);
         priorityQueue.add(std3);
