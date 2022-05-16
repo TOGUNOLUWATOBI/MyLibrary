@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 //Class Teacher inheriting class Person
-public class Student extends Person {
+public abstract class Student extends Person {
 
     public static Logger log= Logger.getLogger(Student.class);
 

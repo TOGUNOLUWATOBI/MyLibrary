@@ -22,7 +22,7 @@ public class StudentTest
         book.AddBook("#id-4","Introduction to Physics",5);
 
 
-        Student student=new Student("19cg026489","togun");
+        Student student=new JuniorStudent("19cg026489","togun");
 
         assertEquals("Book successfully borrowed",student.BorrowBook("#id-1"));
     }
@@ -38,7 +38,7 @@ public class StudentTest
         book.AddBook("#id-4","Introduction to Physics",5);
 
 
-        Student student=new Student("19cg026489","togun");
+        Student student=new SeniorStudent("19cg026489","togun");
         String BookId="#id-1";
         assertEquals("Book successfully borrowed",student.BorrowBook(BookId));
         assertEquals("Book returned",student.ReturnBook(BookId));

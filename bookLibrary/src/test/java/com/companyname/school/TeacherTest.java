@@ -39,10 +39,10 @@ public class TeacherTest
         book2.AddBook("#id-4","Introduction to Physics",5);
 
 
-        Student student=new Student("19cg026489","togun");
+        Teacher teacher=new Teacher("19cg026489","togun");
         String BookId="#id-1";
-        assertEquals("Book successfully borrowed",student.BorrowBook(BookId));
-        assertEquals("Book returned",student.ReturnBook(BookId));
+        assertEquals("Book successfully borrowed",teacher.BorrowBook(BookId));
+        assertEquals("Book returned",teacher.ReturnBook(BookId));
 
     }
 
