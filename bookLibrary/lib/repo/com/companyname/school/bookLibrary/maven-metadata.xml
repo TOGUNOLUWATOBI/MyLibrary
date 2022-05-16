@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.companyname.school</groupId>
+  <artifactId>bookLibrary</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220516074309</lastUpdated>
+  </versioning>
+</metadata>
